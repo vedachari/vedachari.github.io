@@ -1,59 +1,62 @@
 // src/pages/Contact.tsx
-import React, { useState } from "react";
+import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
 import "../styles/Contact.css";
 
 const Contact: React.FC = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+  // Replace "yourFormIdHere" with your actual Formspree form ID (like "mabcdxyz")
+  const [state, handleSubmit] = useForm("mldpwnpr");
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // TODO: Add form submission logic (e.g., email API or Formspree)
-    alert("Message sent!");
-    setFormData({ name: "", email: "", message: "" });
-  };
+  if (state.succeeded) {
+    return (
+      <section id="contact" className="contact-section">
+        <h2 className="contact-title">Message Sent!</h2>
+        <p className="contact-subtitle">Thank you for reaching out — I’ll get back to you soon.</p>
+      </section>
+    );
+  }
 
   return (
     <section id="contact" className="contact-section">
       <h2 className="contact-title">Contact Me</h2>
-      <p className="contact-subtitle">Feel free to reach out for collaborations or questions!</p>
-      <form className="contact-form" onSubmit={handleSubmit}>
+      <p className="contact-subtitle">
+        Feel free to reach out for collaborations or questions!
+      </p>
+
+      <form onSubmit={handleSubmit} className="contact-form">
         <input
+          id="name"
           type="text"
           name="name"
           placeholder="Your Name"
-          value={formData.name}
-          onChange={handleChange}
           required
           className="box-text"
         />
+        <ValidationError prefix="Name" field="name" errors={state.errors} />
+
         <input
+          id="email"
           type="email"
           name="email"
           placeholder="Your Email"
-          value={formData.email}
-          onChange={handleChange}
           required
           className="box-text"
         />
+        <ValidationError prefix="Email" field="email" errors={state.errors} />
+
         <textarea
+          id="message"
           name="message"
           placeholder="Your Message"
-          value={formData.message}
-          onChange={handleChange}
           rows={5}
           required
           className="box-text"
         />
-        <button type="submit">Send Message</button>
+        <ValidationError prefix="Message" field="message" errors={state.errors} />
+
+        <button type="submit" disabled={state.submitting}>
+          {state.submitting ? "Sending..." : "Send Message"}
+        </button>
       </form>
     </section>
   );
