@@ -1,8 +1,3 @@
-:root {
-  --primary-color: #4f5e36;
-  --secondary-color: #717f56;
-}
-
 /* Home section styles */
 .home {
   padding-top: var(--navbar-height); /* space below navbar */
@@ -13,12 +8,12 @@
 
 .home-title {
   font-family: 'Inter', sans-serif;
-  color: var(--primary-color);
+  color: var(--primary-dark);
   text-align: center;
 }
 
 .home-subtitle {
-  color: var(--secondary-color);
+  color: var(--primary-med);
   font-size: 1.2rem;
   padding: 1rem;
   text-align: center;
@@ -27,6 +22,6 @@
 .home-name {
   font-size: 2rem;
   font-family: 'Inter', sans-serif;
-  color: var(--primary-color);
+  color: var(--primary-dark);
   text-align: center;
 }

@@ -1,4 +1,12 @@
-
+:root{
+  --primary-dark: #0a677c; /* purple blue */
+  --primary-med: #378da0;
+  --primary-light: #bdeaf4;
+  --secondary-dark: #e1ac74; /* orange yellow */
+  --secondary-med: #f2d29d;
+  --secondary-light: #f0dab8;
+  --pop-color: #ef57a8;
+  }
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -40,6 +48,10 @@
 
 .read-the-docs {
   color: #888;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .page-container {

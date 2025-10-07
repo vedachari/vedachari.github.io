@@ -2,7 +2,6 @@ import React from "react";
 import { projects } from "../data/projectsData";
 import ProjectCard from "../components/Projectcard";
 import "../styles/Projects.css";
-import Page from "../components/Page";
 
 const Projects: React.FC = () => {
   return (

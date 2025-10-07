@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import Projects from "./pages/Projects";
-import About from "./pages/About";
+import Projects from "./pages/projects";
+import Contact from "./pages/Contact";
 import Page from "./components/Page";
 import "./App.css";
 
@@ -16,8 +16,8 @@ function App() {
         <section id="projects">
           <Projects />
         </section>
-        <section id="about">
-          <About />
+        <section id="contact">
+          <Contact />
         </section>
       </Page>
   );

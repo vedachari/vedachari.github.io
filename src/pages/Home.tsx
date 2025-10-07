@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Projects.css";
-import Page from "../components/Page";
 import "../styles/Home.css";
 
 const Home: React.FC = () => {
