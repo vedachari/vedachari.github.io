@@ -46,3 +46,9 @@
   width: 100%;
   overflow-x: hidden;
 }
+section {
+  margin-bottom: 4rem; /* space after each section */
+}
+section:last-of-type {
+  margin-bottom: 2rem; /* less space after last section */
+}
