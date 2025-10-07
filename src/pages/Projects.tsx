@@ -6,7 +6,7 @@ import Page from "../components/Page";
 
 const Projects: React.FC = () => {
   return (
-    <Page >
+    < >
       <section className="projects-section">
         <h2 className="projects-title">My Projects</h2>
       <div className="projects-container"> 
@@ -15,7 +15,7 @@ const Projects: React.FC = () => {
         ))}
       </div>
     </section>
-  </Page>
+  </>
   );
 };
 

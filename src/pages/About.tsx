@@ -5,9 +5,9 @@ import "../styles/About.css";
 
 const About: React.FC = () => {
   return (
-    <Page >
+    < >
       <h1 className="about-title">About Me</h1>
-    </Page>
+    </>
   );
 };
 

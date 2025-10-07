@@ -1,12 +1,32 @@
-:root{
-    --primary-color: #4f5e36;
-    --secondary-color: #f4eacc;
+:root {
+  --primary-color: #4f5e36;
+  --secondary-color: #717f56;
 }
 
-.home{
-    padding: 1rem;
+/* Home section styles */
+.home {
+  padding-top: var(--navbar-height); /* space below navbar */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: 'Inter', sans-serif;
 }
-.home-title{
-    font-family: 'Inter', sans-serif;
-    color: var(--primary-color);
+
+.home-title {
+  font-family: 'Inter', sans-serif;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.home-subtitle {
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.home-name {
+  font-size: 2rem;
+  font-family: 'Inter', sans-serif;
+  color: var(--primary-color);
+  text-align: center;
 }

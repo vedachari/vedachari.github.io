@@ -1,7 +1,6 @@
 // Navbar component adapted from https://github.com/Buckhouse/React-Nav-Bar-Tutorial.git
 
 import React, { useState, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
@@ -36,9 +35,9 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <ul className="navbar-menu">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/projects">Projects</Link></li>
-          <li><Link to="/about">About</Link></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
         </ul>
 
         <div className="navbar-action">
@@ -66,9 +65,9 @@ function Navbar() {
         </div>
 
         <ul className={`navbar-mobile-menu ${isOpen ? 'active' : ''}`} ref={menuRef}>
-        <li><Link to="/" onClick={closeMenu}>Home</Link></li>
-        <li><Link to="/projects" onClick={closeMenu}>Projects</Link></li>
-        <li><Link to="/about" onClick={closeMenu}>About</Link></li>
+        <li><a href="#home" onClick={closeMenu}>Home</a></li>
+        <li><a href="#projects" onClick={closeMenu}>Projects</a></li>
+        <li><a href="#about" onClick={closeMenu}>About</a></li>
         <li>
         <a 
             href="https://github.com/vedachari"
