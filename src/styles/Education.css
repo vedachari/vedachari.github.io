@@ -1,5 +1,12 @@
 .home-education{
-  /* padding: 6rem 2rem; */
+  font-size: 1rem;
+  text-align: center;
+  color: var(--secondary-dark);
+}
+
+.education-title{
+  font-size: 2.5rem;
+  font-weight: 700;
   text-align: center;
   color: var(--primary-dark);
 }

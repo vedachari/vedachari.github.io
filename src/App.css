@@ -1,14 +1,16 @@
 :root{
   --primary-dark: #0a677c; /* purple blue */
-  --primary-med: #378da0;
+  --primary-med: #2f7787;
   --primary-light: #bdeaf4;
+  --primary-box: #d7a570;
   --secondary-dark: #e1ac74; /* orange yellow */
   --secondary-med: #f2d29d;
-  --secondary-light: #f0dab8;
+  --secondary-light: #f0deb8;
   --pop-color: #ef57a8;
   }
 #root {
-  max-width: 1280px;
+  max-width: 100%;
+  max-height: 100vh;
   margin: 0 auto;
   text-align: center;
   background-color: #ffffff;
@@ -50,14 +52,14 @@
   color: #888;
 }
 
-html {
+html, body {
   scroll-behavior: smooth;
 }
 
-.page-container {
+/* .page-container {
   width: 100%;
   overflow-x: hidden;
-}
+} */
 section {
   margin-bottom: 4rem; /* space after each section */
 }
