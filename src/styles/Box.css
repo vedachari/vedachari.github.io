@@ -4,7 +4,7 @@
   align-items: center;
   padding: 2rem;
   margin: 2rem auto;
-  background-color: var(--primary-dark);
+  background-color: var(--primary-med);
   border-radius: 12px;
   width: 80%; /* 60% width of the page → 20% margin on each side */
   min-width: 300px; 

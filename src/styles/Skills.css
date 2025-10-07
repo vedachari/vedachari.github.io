@@ -9,6 +9,7 @@
 .home-skills{
   text-align: center;
   color: var(--secondary-med);
+  padding-top: var(--navbar-height);
 }
 .skills-list {
   list-style: none;
@@ -20,7 +21,7 @@
 }
 
 .skills-list li {
-  background-color: var(--primary-dark);
+  background-color: var(--primary-med);
   padding: 0.5rem 1rem;
   border-radius: 6px;
 }

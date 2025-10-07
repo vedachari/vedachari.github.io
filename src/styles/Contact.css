@@ -11,8 +11,8 @@
 .contact-title {
   font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 1rem;
   text-align: center;
+  color: var(--primary-dark);
 }
 
 .contact-subtitle {
@@ -31,7 +31,7 @@
 
 .contact-form input,
 .contact-form textarea {
-  background-color: var(--primary-dark);
+  background-color: var(--primary-med);
   color: var(--secondary-med);
   border: none;
   padding: 0.75rem 1rem;
@@ -47,7 +47,7 @@
 }
 
 .contact-form button {
-  background-color: var(--primary-dark);
+  background-color: var(--primary-med);
   color: var(--secondary-med);
   border: none;
   padding: 0.75rem 1rem;
@@ -58,8 +58,7 @@
 }
 
 .contact-form button:hover {
-  color: var(--secondary-dark);
-  background-color: var(--primary-med); /* slightly darker on hover */
+  background-color: var(--primary-dark); /* slightly darker on hover */
 }
 .box-text{
   color : var(--secondary-med);

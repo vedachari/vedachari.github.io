@@ -1,7 +1,8 @@
 .home-interests {
   /* padding: 6rem 2rem; */
   text-align: center;
-  color: var(--primary-dark);
+  color: var(--secondary-med);
+  padding-top: var(--navbar-height);
 }
 
 .interests-title{
@@ -9,4 +10,18 @@
   font-weight: 700;
   text-align: center;
   color: var(--primary-dark);
+}
+
+.interests-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.interests-list li {
+  background-color: var(--primary-med);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
 }

@@ -9,7 +9,7 @@ const Home: React.FC = () => {
       <div id="home" className="home-intro">
         <Box>
         <h1 className="home-hello">Hello!</h1>
-        <p className="home-hello-subtitle">my name is</p>
+        <p className="home-hello-subtitle">My name is</p>
         
         <h1 className="home-title">Veda Chari</h1>
         </Box>

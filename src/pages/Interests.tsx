@@ -7,9 +7,12 @@ const Interests: React.FC = () => {
   return (
       <div id="interests" className="home-interests">
         <h2 className="interests-title">Interests</h2>
-        <p>
-          AI & Machine Learning, Open Source Projects, Web Development, Chess, and Music.
-        </p>
+        <ul className="interests-list">
+          <li>React / TypeScript / JavaScript</li>
+          <li>Python / AI & Machine Learning</li>
+          <li>Java / C++ / Data Structures & Algorithms</li>
+          <li>Full Stack Development</li>
+        </ul>
       </div>
   );
 };

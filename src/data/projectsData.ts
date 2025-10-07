@@ -2,6 +2,7 @@ export interface Project {
   name: string;
   date: string;
   description: string;
+  skills: string;
   url: string;
 }
 
@@ -11,6 +12,7 @@ export const projects: Project[] = [
     date: "Some Date",
     description:
       "Description",
+    skills:"",
     url: "https://example.com"
   },
   {
@@ -18,6 +20,7 @@ export const projects: Project[] = [
     date: "Some Date",
     description:
       "Description",
+    skills:"",
     url: "https://example.com"
   },
   {
@@ -25,6 +28,7 @@ export const projects: Project[] = [
     date: "Some Date",
     description:
       "Description",
+    skills:"",
     url: "https://example.com"
   },
 ];

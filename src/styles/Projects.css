@@ -93,3 +93,11 @@
     padding: 1.25rem 1.5rem;
   }
 }
+
+/* Project date */
+.project-skills {
+  font-size: 1rem;
+  color: var(--secondary-med);
+  margin-bottom: 1rem;
+  font-style: italic;
+}
