@@ -1,0 +1,12 @@
+:root{
+    --primary-color: #4f5e36;
+    --secondary-color: #f4eacc;
+}
+
+.home{
+    padding: 1rem;
+}
+.home-title{
+    font-family: 'Inter', sans-serif;
+    color: var(--primary-color);
+}

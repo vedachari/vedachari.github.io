@@ -1,0 +1,7 @@
+
+.page {
+  background-color: #f3e8d5;
+  width: 100vw;
+  height: 100vh;
+  padding-top: var(--navbar-height);
+}
