@@ -1,0 +1,26 @@
+/* Skills */
+.skills-title{
+    color: var(--primary-dark);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.home-skills{
+  text-align: center;
+  color: var(--secondary-med);
+}
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.skills-list li {
+  background-color: var(--primary-dark);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}

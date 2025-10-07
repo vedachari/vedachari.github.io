@@ -8,13 +8,28 @@
 
 .home-title {
   font-family: 'Inter', sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
   color: var(--primary-dark);
+
+  /* Outline via multiple shadows */
+  text-shadow: 
+    -2px -2px 0 var(--primary-light),
+     2px -2px 0 var(--primary-light),
+    -2px  2px 0 var(--primary-light),
+     2px  2px 0 var(--primary-light),
+     0 0 6px var(--primary-light);
+
   text-align: center;
 }
 
+
+
+
 .home-subtitle {
-  color: var(--primary-med);
+  color: var(--primary-dark);
   font-size: 1.2rem;
+  max-width: 600px;
   padding: 1rem;
   text-align: center;
 }
@@ -23,5 +38,21 @@
   font-size: 2rem;
   font-family: 'Inter', sans-serif;
   color: var(--primary-dark);
+  text-align: center;
+}
+
+.home-section {
+  width: 100%;
+  color: #f8f8f8;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Intro Section */
+.home-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: var(--navbar-height);
   text-align: center;
 }

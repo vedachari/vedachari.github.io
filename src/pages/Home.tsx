@@ -1,16 +1,19 @@
+// src/pages/Home.tsx
 import React from "react";
-import "../styles/Projects.css";
 import "../styles/Home.css";
 
 const Home: React.FC = () => {
   return (
-        <>
-          <div className="home">
-            <h1 className="home-title">Hello!</h1>
-            <h2 className="home-subtitle">My name is</h2>
-            <h1 className="home-name">Veda Chari</h1>
-          </div>
-        </>
+    <div className="home-section">
+      
+      {/* Intro Section */}
+      <section id="home" className="home-intro">
+        <h1 className="home-title">Veda Chari</h1>
+        <p className="home-subtitle">
+          I am a software engineer and AI enthusiast who enjoys building projects that combine creativity and technology.
+        </p>
+      </section>
+    </div>
   );
 };
 

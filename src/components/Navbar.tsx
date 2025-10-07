@@ -36,6 +36,9 @@ function Navbar() {
       <div className="navbar-container">
         <ul className="navbar-menu">
           <li><a href="#home">Home</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -66,6 +69,9 @@ function Navbar() {
 
         <ul className={`navbar-mobile-menu ${isOpen ? 'active' : ''}`} ref={menuRef}>
         <li><a href="#home" onClick={closeMenu}>Home</a></li>
+        <li><a href="#education" onClick={closeMenu}>Education</a></li>
+        <li><a href="#interests" onClick={closeMenu}>Interests</a></li>
+        <li><a href="#skills" onClick={closeMenu}>Skills</a></li>
         <li><a href="#projects" onClick={closeMenu}>Projects</a></li>
         <li><a href="#contact" onClick={closeMenu}>Contact</a></li>
         <li>
