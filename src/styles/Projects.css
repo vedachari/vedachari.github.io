@@ -56,6 +56,7 @@
 
 /* Project description */
 .project-description {
+  text-align: left;
   font-size: 1rem;
   line-height: 1.6;
   color: var(--secondary-med);
@@ -96,7 +97,9 @@
 /* Project date */
 .project-skills {
   font-size: 1rem;
-  color: var(--secondary-med);
+  color: var(--secondary-dark);
+  text-align: left;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   font-style: italic;
 }

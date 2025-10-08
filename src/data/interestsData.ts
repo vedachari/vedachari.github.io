@@ -7,9 +7,24 @@ export const interests: Interest[] = [
     name: "AI/ML"
   },
   {
-    name: "Interest 2"
+    name: "Software Engineering"
   },
   {
-    name: "Interest 3"
+    name: "Healthcare"
+  },
+  {
+    name: "BCI"
+  },
+  {
+    name: "Neuroscience"
+  },
+  {
+    name: "Cooking/Food"
+  },
+  {
+    name: "Watercolor"
+  },
+  {
+    name: "Reading"
   },
 ];
