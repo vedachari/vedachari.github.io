@@ -13,7 +13,7 @@ export const interests: Interest[] = [
     name: "Healthcare"
   },
   {
-    name: "BCI"
+    name: "Brain-Computer Interfaces"
   },
   {
     name: "Neuroscience"
