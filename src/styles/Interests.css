@@ -1,15 +1,22 @@
 .home-interests {
   /* padding: 6rem 2rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
   text-align: center;
   color: var(--secondary-med);
   padding-top: var(--navbar-height);
+  width: 90%; /* 90% width of the page → 5% margin on each side */
+  min-width: 300px; 
 }
 
 .interests-title{
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 700;
   text-align: center;
   color: var(--primary-dark);
+  margin-bottom: 1rem;
 }
 
 .interests-list {
@@ -17,6 +24,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  font-size: 1.5rem;
   gap: 1rem;
 }
 

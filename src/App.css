@@ -10,10 +10,13 @@
   }
 #root {
   max-width: 100%;
-  max-height: 100vh;
+  max-height: 100%;
   margin: 0 auto;
   text-align: center;
   background-color: #ffffff;
+}
+* {
+  box-sizing: border-box;
 }
 
 .logo {
@@ -54,6 +57,10 @@
 
 html, body {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
 }
 
 /* .page-container {
@@ -61,8 +68,5 @@ html, body {
   overflow-x: hidden;
 } */
 section {
-  margin-bottom: 4rem; /* space after each section */
-}
-section:last-of-type {
-  margin-bottom: 2rem; /* less space after last section */
+  margin-bottom: 1rem; /* space after each section */
 }
