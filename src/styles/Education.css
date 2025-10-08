@@ -1,6 +1,5 @@
 .home-education{
   font-size: 1rem;
-  text-align: center;
   color: var(--secondary-med);
   padding-top: var(--navbar-height);
 }
@@ -10,4 +9,9 @@
   font-weight: 700;
   text-align: center;
   color: var(--primary-dark);
+}
+
+.honors{
+  font-style: italic;
+  text-align: left;
 }

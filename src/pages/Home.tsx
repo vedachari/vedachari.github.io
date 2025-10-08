@@ -14,7 +14,13 @@ const Home: React.FC = () => {
         <h1 className="home-title">Veda Chari</h1>
         </Box>
         <p className="home-subtitle">
-          I am a software engineer and AI enthusiast who enjoys building projects that combine creativity and technology.
+          I am a software engineer and AI enthusiast 
+          passionate about creating projects that blend 
+          technology and creativity. I am especially 
+          fascinated by the intersection of technology and 
+          neuroscience, with interests in computational 
+          neuroscience and Brain-Computer Interface 
+          applications.
         </p>
       </div>
     

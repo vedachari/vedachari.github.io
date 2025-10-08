@@ -9,7 +9,8 @@ const Education: React.FC = () => {
         
         <h2 className="education-title">Education</h2>
         <Box>
-        <p>Bachelor of Science in Computer Science and Neuroscience, Boston University, May 2025</p>
+        <p>Bachelor of Arts in Computer Science and Neuroscience, Boston University, May 2025</p>
+        <p className="honors">GPA: 3.72, Dean's List</p>
         </Box>
       </div>
   );

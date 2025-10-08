@@ -29,7 +29,7 @@
 .home-subtitle {
   color: var(--primary-dark);
   font-size: 1.5rem;
-  max-width: 600px;
+  max-width: 80%;
   text-align: center;
 }
 

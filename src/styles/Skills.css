@@ -36,6 +36,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 80%;
   gap: 2rem;
 }
 
@@ -44,7 +45,7 @@
   color: var(--secondary-light);
   padding: 1.5rem;
   border-radius: 1rem;
-  min-width: 250px;
+  width: 80%;
   text-align: left;
 }
 

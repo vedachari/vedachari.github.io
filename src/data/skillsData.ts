@@ -6,14 +6,14 @@ export interface SkillType {
 export const skills: SkillType[] = [
   {
     name: "Languages",
-    skills: ["python","Java" ]
+    skills: ["AutoCAD", "C", "C++", "CSS", "Go", "Java", "JavaScript", "MATLAB", "OCaml", "Python", "x86 Assembly"]
   },
   {
     name: "Developer Tools",
-    skills: ["Visual Studio","AWS" ]
+    skills: ["AWS", "Docker","Grafana",  "macOS", "Postman", "Prometheus", "Visual Studio",  "Windows"]
   },
   {
     name: "Technologies/Frameworks",
-    skills: ["React","Node.js" ]
+    skills: ["Git", "Node.js", "React" ]
   },
 ];
