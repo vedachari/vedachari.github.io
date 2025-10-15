@@ -45,6 +45,14 @@ function Navbar() {
 
         <div className="navbar-action">
           <a
+            href="https://drive.google.com/file/d/1zVPcsJeSLABd8t-7qSYZbyco0lTrQSUk/view?usp=sharing"
+            className="navbar-newsletter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+          <a
             href="https://github.com/vedachari"
             className="navbar-newsletter"
             target="_blank"
@@ -74,6 +82,16 @@ function Navbar() {
         <li><a href="#skills" onClick={closeMenu}>Skills</a></li>
         <li><a href="#projects" onClick={closeMenu}>Projects</a></li>
         <li><a href="#contact" onClick={closeMenu}>Contact</a></li>
+        <li>
+        <a 
+            href="https://drive.google.com/file/d/1zVPcsJeSLABd8t-7qSYZbyco0lTrQSUk/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={closeMenu}
+        >
+            Resume
+        </a>
+        </li>
         <li>
         <a 
             href="https://github.com/vedachari"
