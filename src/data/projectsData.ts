@@ -12,7 +12,7 @@ export const projects: Project[] = [
     date: "Fall 2025",
     description:
       "Trained a neural network to detect if an object is potentially and exoplanet or not based on Kepler Space Observatory data. Achieved ~98% accuracy on the test set.",
-    skills:"Tesnforflow, Python, Pandas, Scikit-learn, Data Preprocessing",
+    skills:"Tensorflow, Python, Pandas, Scikit-learn, Data Preprocessing",
     url: "https://github.com/vedachari/kepler-exoplanet/tree/main"
   },
   {
